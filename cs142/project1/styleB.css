@@ -1,0 +1,33 @@
+#box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap; 
+  }
+  
+  p{
+    flex: none;
+    background-color:#eeeff2;
+    font-family: Tahoma;
+    font-size: 40px;
+    width: 100px;
+    height: 150px;
+    margin-left: 10px;
+    padding: 10px;
+    text-align: left;
+    border-left: 10px dotted #D0D0FF;
+  
+  }
+  
+  p:hover{
+    background-color:yellow;
+    color: goldenrod;
+    cursor: pointer;
+  }
+  
+  
+  .f{
+    position:fixed;
+    bottom:0;
+    right:0;
+    margin:0px;
+  }
