@@ -1,0 +1,17 @@
+.table{
+    border: 1px solid black;
+    text-align: center;
+    background-color: bisque;
+    width: 100px;
+
+}
+
+#OtherMonth{
+    color: grey;
+}
+
+
+#prev, #next{
+    cursor: pointer;
+}
+
